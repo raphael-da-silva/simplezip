@@ -1,0 +1,21 @@
+{
+    "name": "raphael-da-silva/simplezip",
+    "description": "Um wrapper simples para gerar arquivos zip com PHP.",
+    "authors": [
+        {
+            "name": "Raphael da Silva"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "SimpleZip\\": "src/"
+        },
+        "classmap": [
+            "tests/"
+        ]
+    }
+}

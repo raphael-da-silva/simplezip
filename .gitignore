@@ -1,0 +1,6 @@
+# Paths
+vendor/
+bin/
+
+# Files
+composer.lock
